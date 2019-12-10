@@ -1,0 +1,125 @@
+
+body{
+  /*background: url(IMG_4893.jpg) no-repeat fixed center;
+  background-size: 100%; */
+  background-color: #E9ECF1;
+  font-family: Nanum Brush Script;
+}
+div{
+width: 100%;
+margin: auto;
+}
+
+a {
+   text-decoration: none;
+   display: inline-flex;
+   padding: 1%;
+   font-size: 220%;
+   margin-left: 16%;
+   letter-spacing: 10px;
+   padding-top: 4%;
+}
+a:link {
+   color: #737C84;
+}
+a:hover {
+   color: #846C57;
+}
+a:visited{
+  color: #A5CAE3;
+}
+.topnav {
+  overflow: hidden;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.image{
+  width:85%;
+  margin-top: 80px;
+  letter-spacing: 2px;
+}
+
+.image-person{
+  float:left;
+  margin-left:20px;
+  margin-right: 100px;
+  margin-top: 100px;
+
+}
+
+h1 {
+  padding-left: 50px;
+  font-size: 50px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #989C9F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color:#A5CAE3;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 100px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
