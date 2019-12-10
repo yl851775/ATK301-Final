@@ -1,0 +1,135 @@
+copy
+<!-- Recording.html -->
+  <main>
+    <div class="gallery">
+    <iframe class="Handel1" class="imageleft" width="720" height="500" src="https://www.youtube.com/embed/-PusBJGnUsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="Handel"> G. F., Handel<br> Sonata No.2 in B-Flat Major HWV 357 <br>
+    Oboist: Tzu-Han Hu <br>
+    Pianist: Jenny Lin</div>
+
+    <div>
+    <iframe class="imageright" width="720" height="500" src="https://www.youtube.com/embed/OoJgcoARTkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="Dorati"> A., Dorati<br> Duo Concertante for Oboe and Piano <br>
+    Oboist: Tzu-Han Hu <br>
+    Pianist: Jenny Lin</p>
+    </div>
+    <div>
+    <iframe class="imageleft" width="720" height="500" src="https://www.youtube.com/embed/zT4Uciuv0Bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="Handel"> L. van Beethoven: <br> Symphony No.6, 3rd movement <br>
+    N., Rimsky-Korsakov: <br>Scheherazade <br>
+    P. I., Tchaikovsky: <br>Symphony No.4, 2nd movement
+    </div>
+    <div>
+    <iframe class="imageright" width="720" height="500" src="https://www.youtube.com/embed/70HkaIumY50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="Dorati"> N., Rimsky-Korsakov: <br> Scheherazade <br>
+    Orchetra: TMUE Orchestra
+    </div>
+
+
+  </div>
+  </main>
+
+
+
+  <!-- contact -->
+  <div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+
+
+  <!-- contact 1 -->
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text], select, textarea {
+    width: 20%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /*
+  @media screen and (max-width: 100px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }*/
